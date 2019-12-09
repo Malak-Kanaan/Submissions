@@ -1,6 +1,6 @@
 # Malak Kanaan
 
----
+## <img src="malak.jpg" alt="my pic" style="width:200px;"/>
 
 > **Address:** Beirut , Lebanon \
 > **Mobile:** +961-76-665377 \
