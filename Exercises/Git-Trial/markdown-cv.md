@@ -5,6 +5,7 @@
 > **Address:** Beirut , Lebanon \
 > **Mobile:** +961-76-665377 \
 > **Email:** malakkanaan17@gmail.com
+> **Date Of Birth:** 17-6-1998
 
 ---
 
