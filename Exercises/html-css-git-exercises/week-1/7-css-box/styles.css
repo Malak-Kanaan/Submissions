@@ -4,3 +4,14 @@
   border-radius: 4px;
   background: #fff;
 }
+.pages {
+  padding: 30px;
+  margin: 25px;
+}
+.pages__showing {
+  padding: 5px;
+}
+.site-wrapper {
+  margin: 5px;
+  padding: 5px;
+}
