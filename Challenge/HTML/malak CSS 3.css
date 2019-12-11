@@ -1,0 +1,93 @@
+body {
+  background-color: #212b2d;
+  color: #97a9ad;
+}
+header {
+  background-image: url(sc.png);
+  background-size: 100%;
+  background-position: center;
+  width: 80%;
+  height: 200px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.hdr {
+  position: absolute;
+  top: 6%;
+  left: 15%;
+  color: #97b4b8;
+}
+main {
+  display: flex;
+}
+nav,
+a {
+  color: #97a9ad;
+  text-align: center;
+  background-color: #333d3f;
+}
+a {
+  margin: 25px;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  padding-top: 15px;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+.t1 {
+  width: 80%;
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.t2 {
+  width: 100%;
+}
+table {
+  caption-side: bottom;
+}
+td {
+  padding: 10px;
+}
+
+.pipe {
+  border-left: 1px solid #97a9ad;
+}
+.readmore {
+  background-color: #7c8b90;
+  border-radius: 0px;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.history {
+  bottom: 10px;
+  margin-bottom: 8%;
+}
+
+.benefits {
+}
+
+.usage {
+  top: 10px;
+  margin-top: 10%;
+}
+
+.definition {
+  bottom: 10px;
+  margin-bottom: 30%;
+}
+
+.usage {
+  top: 10px;
+  margin-top: 10%;
+}
