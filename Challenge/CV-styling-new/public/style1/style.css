@@ -1,0 +1,54 @@
+header {
+  background-color: gray;
+  height: 200px;
+}
+
+hgroup {
+  color: red;
+}
+
+.contact {
+  margin: 0;
+  position: relative;
+  top: -1330px;
+  left: 700px;
+}
+
+.contact-type {
+  background-color: red;
+  color: white;
+  float: inline-start;
+  padding-inline-start: 0em;
+  list-style: height 0;
+  width: 150px;
+  padding: 8px;
+  position: relative;
+}
+
+.contact-value {
+  background-color: black;
+  display: flex;
+  clear: right;
+  width: 150px;
+  padding: 8px;
+  position: relative;
+}
+
+figure {
+  position: relative;
+  top: -100px;
+  left: 250px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+h3::before {
+  content: "\2022";
+  color: red;
+  width: 20px;
+  font-weight: bold;
+  size: 10px;
+}
