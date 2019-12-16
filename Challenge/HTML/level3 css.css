@@ -1,0 +1,46 @@
+body {
+  background-color: #212b2d;
+  color: #97a9ad;
+}
+header {
+  background-image: url(sc.png);
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 165px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.container {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a:first-child {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
