@@ -7,3 +7,20 @@ insert into students(ID,Name,Age,Gender,Points) values ( '8' , 'Malak' , '21' , 
 Update students set points=450 where Name='Basma'
 Update students set points = points - 30 where Name = 'Alex'
 
+create table graduates(
+    ID INTEGER NOT NULL PRIMARY KEY autoincrement,
+    Name TEXT NOT NULL UNIQUE,
+    Age INTEGER,
+    Gender TEXT,
+    Points INTEGER,
+    Graduation date
+    );
+
+insert into graduates('ID','Name','Age','Gender','Points') select * from students where Name='Layal'
+
+update graduates set Graduation='12/10/2019' where Name='Layal'
+
+delete  from students where Name='Layal'
+
+
+
