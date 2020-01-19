@@ -22,5 +22,10 @@ update graduates set Graduation='12/10/2019' where Name='Layal'
 
 delete  from students where Name='Layal'
 
+select employees.Name,companies.Name,companies.Date from employees,companies;
+select employees.Name,companies.Date from employees,companies where companies.date<2000;
+select companies.Name,employees.Role  from companies,employees where employees.role="Graphic Designer";
+
+
 
 
