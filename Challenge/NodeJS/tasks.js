@@ -72,6 +72,12 @@ function hello(){
   console.log('hello!')
 }
 
+
+
+/** This function lists all the possible commands
+* This function is supposed to run when you write help
+* @returns {void}
+*/
 function help(){
  
   console.log("Type 'exit' or 'quit' to quit the program")
