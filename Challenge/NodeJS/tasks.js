@@ -107,6 +107,9 @@ function help(){
   console.log("Type 'hello' to say Hello")
   console.log("Type 'hello Name' to say Hello Name")
   console.log("If you type an unknown command , you should type something defined")
+  console.log("Type 'add' to add to the list")
+  console.log("Type 'remove' to remove from  the list")
+  console.log("Type 'list' to list all the elements of the list")
 
 }
 var listt = [ "Reveiller" , "Brosser les dents"  , "Prendre le petit dejeuner"] ;
