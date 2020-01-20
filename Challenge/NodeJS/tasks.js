@@ -48,7 +48,7 @@ function onDataReceived(text) {
   else if(text === 'help\n'){
    help();
   
-   
+
   }
   else{
     unknownCommand(text);
@@ -85,12 +85,13 @@ function hellos(x){
 
 /** This function lists all the possible commands
 * This function is supposed to run when you write help
-
+*This function will write the hello variable
 */
 function help(){
  
   console.log("Type 'exit' or 'quit' to quit the program")
   console.log("Type 'hello' to say Hello")
+  console.log("Type 'hello Name' to say Hello Name")
   console.log("If you type an unknown command , you should type something defined")
 
 }
