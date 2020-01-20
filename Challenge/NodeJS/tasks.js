@@ -48,6 +48,7 @@ function onDataReceived(text) {
   else if(text === 'help\n'){
    help();
   
+   
   }
   else{
     unknownCommand(text);
