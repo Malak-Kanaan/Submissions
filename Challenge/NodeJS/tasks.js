@@ -57,7 +57,13 @@ function onDataReceived(text) {
   else if( text === "add\n"){
     console.log("error")
   }
+  else if(namee[0] === "removee"){
+    removee(namee[1]);
+  }
   
+  else if(text === "remove\n"){
+    remove();
+  }
   else{
     unknownCommand(text);
   }
@@ -112,16 +118,30 @@ function list(){
 }
 
 function add(task){
-  var AllTheSentence = task.split(" "); // elle renvoie un array avec virgules
-  AllTheSentence.shift(); //remove the word add
-  var sentence =AllTheSentence.toString(); // transformer toute la phrase pour un string
-  sentence = sentence.replace(/\,/g," "); //remplacer tous les virgules par des spaces
- sentence= sentence.replace("\n","");  
-
-
+    var AllTheSentence = task.split(" "); // elle renvoie un array avec virgules
+    AllTheSentence.shift(); //remove the word add
+    var sentence =AllTheSentence.toString(); // transformer toute la phrase pour un string
+    sentence = sentence.replace(/\,/g," "); //remplacer tous les virgules par des spaces
+    sentence= sentence.replace("\n","");  
     listt.push(sentence);
     list();
 }
+
+
+function removee(task){
+  listt.splice(task - 1 , 1 );
+  list();
+}
+
+function remove(){
+  listt.pop();
+  list();
+}
+
+
+
+
+
 /**
  * Exits the application
  *
