@@ -47,9 +47,12 @@ function onDataReceived(text) {
   }
   else if(text === 'help\n'){
    help();
+  }
+  else if(text === "list\n"){
+    list();
+  }
   
 
-  }
   else{
     unknownCommand(text);
   }
@@ -94,6 +97,14 @@ function help(){
   console.log("Type 'hello Name' to say Hello Name")
   console.log("If you type an unknown command , you should type something defined")
 
+}
+var listt = [ "Reveiller" , "Brosser les dents"  , "Prendre le petit dejeuner"] ;
+
+function list(){
+
+for(var i=0 ; i<listt.length ; i++){
+  console.log(1 + i +"-"+listt[i])
+}
 }
 
 /**
