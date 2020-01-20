@@ -51,8 +51,13 @@ function onDataReceived(text) {
   else if(text === "list\n"){
     list();
   }
+  else if(namee[0] === "add"){
+    add(text);
+  }
+  else if( text === "add\n"){
+    console.log("error")
+  }
   
-
   else{
     unknownCommand(text);
   }
@@ -101,12 +106,22 @@ function help(){
 var listt = [ "Reveiller" , "Brosser les dents"  , "Prendre le petit dejeuner"] ;
 
 function list(){
-
-for(var i=0 ; i<listt.length ; i++){
-  console.log(1 + i +"-"+listt[i])
+        for(var i=0 ; i<listt.length ; i++){
+          console.log(1 + i +"-"+listt[i])
+        }
 }
-}
 
+function add(task){
+  var AllTheSentence = task.split(" "); // elle renvoie un array avec virgules
+  AllTheSentence.shift(); //remove the word add
+  var sentence =AllTheSentence.toString(); // transformer toute la phrase pour un string
+  sentence = sentence.replace(/\,/g," "); //remplacer tous les virgules par des spaces
+ sentence= sentence.replace("\n","");  
+
+
+    listt.push(sentence);
+    list();
+}
 /**
  * Exits the application
  *
